@@ -11,6 +11,14 @@ If you use or modify this library for developing educational materials, please d
 
 This repository includes code to parse an RTTTL string into buffers of note frequencies and durations. It can then be used in conjunction with e.g. the [Tone library](https://github.com/daniel-centore/arduino-tone-library).
 
+**How does this differ from the [PlayRtttl library](https://www.arduino.cc/reference/en/libraries/playrtttl/)?**
+
+The PlayRTTTL library includes code to output signals on Arduino pins to play the RTTTL songs, and also includes many song presets.
+
+This repository is a lot more lightweight, only having functionality to convert RTTTL to buffers of frequencies/durations. This is because it is intended to be used in conjunction with an educational lab in an embedded systems class, where students read a microcontroller datasheet to configure their own clock peripherals to play tones.
+
+**Where can I find RTTTL-formatted songs?**
+
 Examples of RTTTL-formatted songs can be found [here](http://www.cellringtones.com/)
 
 ## Usage

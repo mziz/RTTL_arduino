@@ -36,6 +36,6 @@ if (song_len == -1) {
     Serial.println("ERROR PARSING SONG!");
     while(true);
 }
-// note_frequencies and note_durations now contains the frequencies and durations for the song, in sequence
+// note_frequencies and note_durations now contain the frequencies and durations for the song, in sequence
 ```
   

@@ -5,6 +5,8 @@ Author: Milda Zizyte
 
 Developed for Lab 4 (Clocks, timers, and watchdogs) in CSCI 1600: Embedded and real-time software at Brown University (more information [here](https://cs.brown.edu/courses/info/csci1600/).)
 
+If you use or modify this library for developing educational materials, please drop me a line.
+
 ## Overview
 
 This repository includes code to parse an RTTTL string into buffers of note frequencies and durations. It can then be used in conjunction with e.g. the [Tone library](https://github.com/daniel-centore/arduino-tone-library).

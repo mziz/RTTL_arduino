@@ -1,4 +1,4 @@
-# RTTL_arduino
+# RTTTL_arduino
 RTTTL format parser for Arduino
 
 Author: Milda Zizyte

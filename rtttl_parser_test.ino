@@ -304,9 +304,9 @@ void setup() {
    */
   Serial.println("Running test 43");
   l = rtttl_to_buffers("a:b=60,o=4,d=4:b5,a,8c,8f_,2g7,p.,b_", f, d);
-  int expected_f[7] = {NOTE_B5, NOTE_A4, NOTE_C4, NOTE_FS4, NOTE_G7, 0, NOTE_C5};
-  int expected_d[7] = {1000, 1000, 500, 500, 2000, 1500, 1000};
   const int song_len = 7;
+  int expected_f[song_len] = {NOTE_B5, NOTE_A4, NOTE_C4, NOTE_FS4, NOTE_G7, 0, NOTE_C5};
+  int expected_d[song_len] = {1000, 1000, 500, 500, 2000, 1500, 1000};
   String e_str = "Test 43 failed";
   if (l != song_len) {
     print_error(e_str, "length", song_len, l);

@@ -22,7 +22,7 @@ To use these files for your own Arduino project, copy `rtttl_parser` and `pitche
 Example usage:
 
 ```
-#include "pitches.h"
+#include "rtttl_parser.h"
 
 ...
 

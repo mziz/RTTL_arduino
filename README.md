@@ -5,7 +5,7 @@ Author: Milda Zizyte
 
 Developed for Lab 4 (Clocks, timers, and watchdogs) in CSCI 1600: Embedded and real-time software at Brown University (more information [here](https://cs.brown.edu/courses/info/csci1600/).)
 
-If you use or modify this library for developing educational materials, please drop me a line.
+If you use or modify this library for developing educational materials, please drop me a line. Credit for using this code for any project is appreciated.
 
 ## Overview
 
